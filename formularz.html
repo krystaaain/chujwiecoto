@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Rio De Janeiro</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Rio De Janeiro</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Strona Główna</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="informacje.html">Informacje</a></li>
+                <li><a href="formularz.html">Formularz</a></li>
+                <li><a href="mapa.html">Mapa</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="main">
+        <h1>Ankieta o Mieście</h1>
+        <form>
+            <label for="imie">Imię:</label>
+            <input type="text" id="imie" name="imie" required>
+    
+            <label for="email">Adres Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="miasto">Twoje Ulubione Miasto:</label>
+            <select id="miasto" name="miasto">
+                <option value="nowy-jork">Nowy Jork</option>
+                <option value="paryz">Paryż</option>
+                <option value="tokio">Tokio</option>
+                <option value="roma">Rzym</option>
+            </select>
+    
+            <p>Twoje ulubione atrakcje turystyczne:</p>
+            <label for="central-park">Central Park</label>
+            <input type="checkbox" id="central-park" name="atrakcje" value="central-park">
+    
+            <label for="statua-wolnosci">Statua Wolności</label>
+            <input type="checkbox" id="statua-wolnosci" name="atrakcje" value="statua-wolnosci">
+    
+            <label for="times-square">Times Square</label>
+            <input type="checkbox" id="times-square" name="atrakcje" value="times-square">
+    
+            <label for="inne-atrakcje">Inne (podaj nazwę):</label>
+            <input type="text" id="inne-atrakcje" name="inne-atrakcje">
+    
+            <button type="submit">Wyślij</button>
+            <button type="reset">Wyczyść</button>
+        </form>
+    </main>
+
+    <footer>
+        <a href="home.html">Powrót do Strony Głównej</a>
+    </footer>
+</body>
+</html>
